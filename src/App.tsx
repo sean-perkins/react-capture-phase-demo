@@ -1,4 +1,4 @@
-import { Redirect, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 import { IonApp, IonRouterOutlet, setupIonicReact } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import StandardForm from "./pages/StandardForm";
@@ -39,7 +39,6 @@ const App: React.FC = () => (
         <Route exact path="/react-hook-form">
           <ReactHookForm />
         </Route>
-        <Redirect to="/" />
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
