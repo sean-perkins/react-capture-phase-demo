@@ -39,7 +39,6 @@ const App: React.FC = () => (
         <Route exact path="/react-hook-form">
           <ReactHookForm />
         </Route>
-        <Redirect to="/" />
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>

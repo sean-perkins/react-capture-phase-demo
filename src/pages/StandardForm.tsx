@@ -95,7 +95,7 @@ const ReactHookForm = () => {
               </IonLabel>
               <IonInput
                 value={digitsIonInput}
-                onIonChange={(ev: any) => {
+                onIonInput={(ev: any) => {
                   const value = formatOnlyDigits(ev.target.value);
                   setDigitsIonInput(value);
                 }}
