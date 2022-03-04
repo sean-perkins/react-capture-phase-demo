@@ -1,0 +1,7 @@
+{
+  "name": "react-hook-forms-demo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
